@@ -1,0 +1,32 @@
+
+@import 'rsuite/dist/rsuite.min.css';
+/* @import "./css/app-dark.css"; */
+@import "./css/app-light.css";
+@import "./css/feather.css";
+
+*{
+  font-family: 'Operator Mono';
+
+}
+
+.sc{
+  cursor: pointer;
+}
+
+.show__modal{
+  display: block;
+  padding-right: 15px;
+}
+
+.hide__modal{
+  display: none;
+}
+
+.bg_overlay{
+  overflow: hidden;
+  background: #C04848;  /* fallback for old browsers */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
