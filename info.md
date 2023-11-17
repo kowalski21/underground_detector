@@ -1,0 +1,1 @@
+psql -h db.xfttaopnnhzrtkdethlo.supabase.co -p 5432 -d postgres -U postgres | supabase
